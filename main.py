@@ -1,5 +1,8 @@
 #  https://blog.logrocket.com/building-a-graphql-server-with-fastapi/
 
+# заменили starlette.graphql на strawberry.fastapi
+
+
 from fastapi import FastAPI
 import strawberry
 from strawberry.fastapi import GraphQLRouter
